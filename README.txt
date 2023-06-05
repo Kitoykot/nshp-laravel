@@ -1,4 +1,4 @@
-Создать MySQL таблицу в БД, назвать её naruto-shop-laravel или своим именем
+Создать MySQL таблицу в БД, назвать её naruto-shop-laravel или своим именем и импортировать sql-файл naruto-shop-laravel в таблицу
 
 в терминале прописать следующее:
 composer update
