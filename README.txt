@@ -15,9 +15,6 @@ composer update
 в терминале прописать следующее:
 php artisan key:generate
 
-теперь прописываем в терминале:
-php artisan migrate
-
 в терминале прописать: php artisan storage:link, чтобы загружались и отображались изображения
 
 запускаем сайт через команду php artisan serve или любой другой метод
