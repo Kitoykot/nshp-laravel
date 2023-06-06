@@ -86,7 +86,7 @@ class PagesController extends Controller
     {
         $q = $request->q;
 
-        $sales = Sale::where("public", 1)->where('title', 'LIKE', "%$q%")->orwhere('description', 'LIKE', "%$q%")->get();
+        $sales = Sale::where("public", 1)->where('title', 'LIKE', "%$q%")->get();
 
         return view("search", [
             "sales" => $sales
